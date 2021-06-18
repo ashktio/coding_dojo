@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="First ever registration developed by Ashenafi Teressa">
+    <title>Register</title>
+</head>
+<body>
+    <form action="process.php" method="post">
+        <h2>Registration form</h2>
+
+        <p>My Registration Form!</p>
+
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name"><br>
+        
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="confirm_password">Confirm password:</label>
+        <input type="password" id="confirm_password" name="confirm password"><br>
+        
+        <label for="date_of_birth">Birthday</label>
+        <input type="date"  id="date_of_birth" name="date_of_birth"><br>
+        
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other"><br>
+
+        <p>A short description about yourself</p>
+        <textarea name="description"></textarea><br>
+    
+        <label for="favorite_language">Favorite Language</label>
+        <select name="favorite_language" id="favorite_language">
+            <option value="js">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="c#">C#</option>
+        </select><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+        
+</body>
+</html>
